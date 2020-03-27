@@ -1,1 +1,39 @@
 /.idea/*
+# Initially taken from Github's Python gitignore file
+
+# Byte-compiled / optimized / DLL files
+/bert/__pycache__/
+/bert/*.py[cod]
+/bert/*$py.class
+
+# C extensions
+/bert/*.so
+
+# Distribution / packaging
+/bert/.Python
+/bert/build/
+/bert/develop-eggs/
+/bert/dist/
+/bert/downloads/
+/bert/eggs/
+/bert/.eggs/
+/bert/lib/
+/bert/lib64/
+/bert/parts/
+/bert/sdist/
+/bert/var/
+/bert/wheels/
+/bert/*.egg-info/
+/bert/.installed.cfg
+/bert/*.egg
+/bert/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+/bert/*.manifest
+/bert/*.spec
+
+# Installer logs
+/bert/pip-log.txt
+/bert/pip-delete-this-directory.txt
